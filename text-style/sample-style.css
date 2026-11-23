@@ -4,6 +4,12 @@ body {
   min-height: 100%;
   font-family: "Yu Mincho", "Hiragino Mincho ProN", "Noto Serif JP", serif;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 1000;
   letter-spacing: 0.04em;
+
+  button:focus,
+  textarea:focus {
+    outline: 3px solid #743b29;
+    outline-offset: 2px;
+  }
 }
